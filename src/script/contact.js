@@ -50,5 +50,3 @@ document.addEventListener("mozfullscreenchange", adjustFontSize);
 document.addEventListener("MSFullscreenChange", adjustFontSize);
 
 adjustFontSize();
-
-console.log(document.documentElement.scrollHeight);
