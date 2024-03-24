@@ -39,6 +39,7 @@ function eraseCharacter() {
 // Initialize eraseIndex and start typing out the first text
 eraseIndex = texts[wordIndex].length;
 let typingInterval = setInterval(typeCharacter, 60);
+let erasingInterval;
 
 function startErasing() {
   erasingInterval = setInterval(eraseCharacter, 20); // Adjust the erasing speed as needed
